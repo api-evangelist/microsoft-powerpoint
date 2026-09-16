@@ -49,9 +49,9 @@ specificationVersion: '0.23'
 apis:
 - aid: powerpoint:powerpoint-graph-api
   name: PowerPoint via Microsoft Graph
-  description: Microsoft Graph exposes PowerPoint presentation files (.pptx) stored in OneDrive and SharePoint
-    as drive items, enabling upload, download, sharing, and metadata operations against presentations
-    programmatically.
+  description: >-
+    Microsoft Graph exposes PowerPoint presentation files (.pptx) stored in OneDrive and SharePoint as
+    drive items, enabling upload, download, sharing, and metadata operations against presentations programmatically.
   humanURL: https://learn.microsoft.com/en-us/graph/api/resources/driveitem
   baseURL: https://graph.microsoft.com/v1.0
   tags:
@@ -69,8 +69,9 @@ apis:
     url: https://learn.microsoft.com/en-us/graph/auth/
 - aid: powerpoint:powerpoint-javascript-api
   name: Office JavaScript API for PowerPoint
-  description: Office JavaScript API namespace for building PowerPoint Add-ins that read, write, and manipulate
-    slides, shapes, text, and tables inside the running PowerPoint application.
+  description: >-
+    Office JavaScript API namespace for building PowerPoint Add-ins that read, write, and manipulate slides,
+    shapes, text, and tables inside the running PowerPoint application.
   humanURL: https://learn.microsoft.com/en-us/javascript/api/powerpoint
   tags:
   - Office Add-Ins
@@ -85,8 +86,8 @@ apis:
     url: https://learn.microsoft.com/en-us/javascript/api/powerpoint
   - type: SDKs
     url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/powerpoint-quickstart
-- aid: powerpoint:powerpoint-driveitems-api
-  name: PowerPoint DriveItems API
+- aid: microsoft-powerpoint:microsoft-powerpoint-driveitems-api
+  name: Microsoft PowerPoint Drive Items API
   description: Manage files (including .pptx presentations) stored in OneDrive and SharePoint.
   humanURL: https://learn.microsoft.com/en-us/graph/api/resources/driveitem
   baseURL: https://graph.microsoft.com/v1.0
@@ -94,7 +95,7 @@ apis:
   - DriveItems
   properties:
   - type: OpenAPI
-    url: openapi/powerpoint-driveitems-api-openapi.yml
+    url: openapi/microsoft-powerpoint-driveitems-api-openapi.yml
 common:
 - type: AgenticAccess
   url: agentic-access/powerpoint-agentic-access.yml
