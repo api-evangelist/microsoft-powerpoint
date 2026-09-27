@@ -32,7 +32,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/powerpoint.png
 tags:
 - Microsoft Office
-- Microsoft-365
+- Microsoft 365
 - Presentations
 - Productivity
 - Documents
@@ -42,6 +42,7 @@ tags_raw:
 - Presentations
 - Productivity
 - Documents
+- Microsoft-365
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-powerpoint/refs/heads/main/apis.yml
 created: '2026-03-16'
 modified: '2026-09-16'
@@ -92,8 +93,6 @@ apis:
   humanURL: https://learn.microsoft.com/en-us/graph/api/resources/driveitem
   baseURL: https://graph.microsoft.com/v1.0
   tags:
-  - DriveItems
-  tags_raw:
   - Drive Items
   properties:
   - type: OpenAPI
