@@ -98,6 +98,12 @@ apis:
   - type: OpenAPI
     url: openapi/microsoft-powerpoint-drive-items-api-openapi.yml
 common:
+- type: Plans
+  url: plans/powerpoint-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/powerpoint-rate-limits.yml
+- type: FinOps
+  url: finops/powerpoint-finops.yml
 - type: AgenticAccess
   url: agentic-access/powerpoint-agentic-access.yml
 - type: TrustCenter
