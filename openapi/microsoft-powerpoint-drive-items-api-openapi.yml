@@ -201,6 +201,14 @@ paths:
         '200':
           description: Sharing link permission
 components:
+  parameters:
+    ItemId:
+      name: item-id
+      in: path
+      required: true
+      schema:
+        type: string
+      description: Unique identifier of the driveItem.
   schemas:
     DriveItem:
       type: object
@@ -235,14 +243,6 @@ components:
               type: string
             path:
               type: string
-  parameters:
-    ItemId:
-      name: item-id
-      in: path
-      required: true
-      schema:
-        type: string
-      description: Unique identifier of the driveItem.
   securitySchemes:
     OAuth2:
       type: oauth2
