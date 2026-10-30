@@ -1,4 +1,4 @@
-# PowerPoint (powerpoint)
+# Microsoft PowerPoint
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,74 +66,124 @@
 
 Microsoft PowerPoint provides programmatic access through the Microsoft Graph API and the Office JavaScript API for creating, reading, and manipulating PowerPoint presentations. PowerPoint files stored in OneDrive and SharePoint are accessible as drive items via Microsoft Graph, while the Office JavaScript API enables in-document automation for Office Add-ins.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/powerpoint/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/powerpoint/refs/heads/main/apis.yml)
+**Areas:** Microsoft Office · Microsoft 365 · Presentations · Productivity · Documents
 
-## Scope
+## Microsoft PowerPoint on APIs.io
 
-- **Type:** Index
+Everything profiled for Microsoft PowerPoint is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microsoft-powerpoint/](https://apis.io/providers/microsoft-powerpoint/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (3)
 
-- Microsoft Office
-- Microsoft 365
-- Presentations
-- Productivity
-- Documents
+- [PowerPoint via Microsoft Graph](https://apis.io/apis/microsoft-powerpoint/powerpoint-graph-api/) — Microsoft Graph exposes PowerPoint presentation files (.pptx) stored in OneDrive and SharePoint as drive items, enabling upload, download, sharing, and…
+- [Office JavaScript API for PowerPoint](https://apis.io/apis/microsoft-powerpoint/powerpoint-javascript-api/) — Office JavaScript API namespace for building PowerPoint Add-ins that read, write, and manipulate slides, shapes, text, and tables inside the running…
+- [Microsoft PowerPoint Drive Items API](https://apis.io/apis/microsoft-powerpoint/microsoft-powerpoint-drive-items-api/) — Manage files (including .pptx presentations) stored in OneDrive and SharePoint.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### PowerPoint via Microsoft Graph
+Which operations an agent can call, which act, and which need a human in the loop.
 
-Microsoft Graph exposes PowerPoint presentation files (.pptx) stored in OneDrive and SharePoint as drive items, enabling upload, download, sharing, and metadata operations against presentations programmatically.
+- [Powerpoint Agentic Access](https://apis.io/agentic-access/microsoft-powerpoint/powerpoint-agentic-access/)
 
-- **Human URL:** [https://learn.microsoft.com/en-us/graph/api/resources/driveitem](https://learn.microsoft.com/en-us/graph/api/resources/driveitem)
-- **Base URL:** `https://graph.microsoft.com/v1.0`
+#### Collections (2)
 
-#### Tags
+Postman and Open Collection request collections.
 
-- Microsoft Graph
-- Files
-- Presentations
+- [PowerPoint via Microsoft Graph](https://apis.io/collections/microsoft-powerpoint/open-powerpoint/)
+- [PowerPoint via Microsoft Graph DriveItems API](https://apis.io/collections/microsoft-powerpoint/open-powerpoint-driveitems-api/)
 
-#### Properties
+#### Security (4)
 
-- [Documentation](https://learn.microsoft.com/en-us/graph/api/resources/driveitem)
-- [Authentication](https://learn.microsoft.com/en-us/graph/auth/)
-- [Postman Collection](collections/powerpoint.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/powerpoint.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Authentication, trust centre, and vulnerability disclosure.
 
-### Office JavaScript API for PowerPoint
+- [Powerpoint Authentication](https://apis.io/security/microsoft-powerpoint/powerpoint-authentication/)
+- [Powerpoint Domain Security](https://apis.io/security/microsoft-powerpoint/powerpoint-domain-security/)
+- [Powerpoint Trust Center](https://apis.io/security/microsoft-powerpoint/powerpoint-trust-center/)
+- [Powerpoint Vulnerability Disclosure](https://apis.io/security/microsoft-powerpoint/powerpoint-vulnerability-disclosure/)
 
-Office JavaScript API namespace for building PowerPoint Add-ins that read, write, and manipulate slides, shapes, text, and tables inside the running PowerPoint application.
+#### OAuth scopes (1)
 
-- **Human URL:** [https://learn.microsoft.com/en-us/javascript/api/powerpoint](https://learn.microsoft.com/en-us/javascript/api/powerpoint)
+The permissions the API asks for.
 
-#### Tags
+- [Powerpoint Scopes](https://apis.io/scopes/microsoft-powerpoint/powerpoint-scopes/)
 
-- Office Add-ins
-- JavaScript
-- Presentations
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://learn.microsoft.com/en-us/javascript/api/powerpoint)
-- [SDK](https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/powerpoint-quickstart)
-- [Postman Collection](collections/powerpoint.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/powerpoint.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Powerpoint Plans Pricing](https://apis.io/plans/microsoft-powerpoint/powerpoint-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Powerpoint Rate Limits](https://apis.io/rate-limits/microsoft-powerpoint/powerpoint-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Powerpoint Finops](https://apis.io/finops/microsoft-powerpoint/powerpoint-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.microsoft.com/en-us/microsoft-365/powerpoint)
 - [Documentation](https://learn.microsoft.com/en-us/graph/overview)
-- [Developer](https://learn.microsoft.com/en-us/office/dev/add-ins/)
-- [Integrations](https://www.microsoft.com/en-us/marketplace)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 29.6** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 48.4 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 15.8 |
+
+**Agent readiness 22.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | negotiable (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 32.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/microsoft-powerpoint/](https://apis.io/providers/microsoft-powerpoint/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Microsoft PowerPoint: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microsoft-powerpoint/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
